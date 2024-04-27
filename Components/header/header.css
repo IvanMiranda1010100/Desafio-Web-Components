@@ -1,0 +1,105 @@
+.header{
+  max-width: 1500px;
+  height: 6rem;
+  background-color: #13171C;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left:2rem;
+  padding-right:2rem;
+}
+
+.header__logo{
+  width: 3rem;
+  height: 3rem;
+  border-radius: 11px;
+}
+
+@media(min-width:769px){
+  .header__logo{
+    width: 5rem;
+    height: 5rem;
+    margin-top: 20px;
+  }
+}
+
+.header__button-open{
+  width: 30px;
+  height: 3rem;
+  color: white;
+}
+
+@media(min-width:769px){
+  .header__button-open{
+    display: none;
+  }
+}
+
+.button-open-logo{
+  width: 3rem;
+  height: 3rem;
+}
+
+.header-contenedor-links{
+  display: none;
+}
+
+.header__links{
+  color: white;
+  text-decoration: none;
+  margin: 1rem;
+}
+
+@media(min-width:769px){
+  
+  .header-contenedor-links{
+    display: flex;
+  }
+
+  .header__links{
+    display: inherit;
+  }
+}
+
+.header__ventana{
+  padding: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: black;
+  border: solid 5px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.ventana__button-close{
+  position: absolute;
+  top: 35px;
+  right: 22px;
+  height: 2rem;
+  width: 2rem;
+}
+
+.logo-close{
+  width: 2rem;
+  height: 2rem;
+}
+
+.ventana-content{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-sections{
+  color: white;
+  text-decoration: none;
+  margin: 2rem;
+  font-family: Poppins,sans-serif;
+  font-weight: 500;
+  font-size: 42px;
+}

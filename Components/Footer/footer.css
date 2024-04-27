@@ -1,0 +1,98 @@
+.footer{
+ max-width: 1500px;
+ height: 32rem;
+ background-color:#13171C ;
+ padding: 4rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+}
+
+@media(min-width:769px){
+  .footer{
+    height: 30rem;
+  }
+}
+
+.footer__contenedor-milogo{
+  height: 8rem;
+  width: 8rem
+}
+
+.footer-milogo{
+  height: 8rem;
+  width: 8rem;
+  border-radius: 60px;
+}
+
+.footer__secciones,.sections,.footer-texto{
+color: white;
+font-family: Poppins,sans-serif;
+font-size: 18px;
+font-weight: 400;
+}
+
+.footer__secciones{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+}
+
+@media(min-width:769px){
+  .footer__secciones{
+    flex-direction: row;
+  }
+
+  .sections{
+    margin: 1rem;
+  }
+}
+
+.contenedor-sections{
+  display: flex;
+}
+
+.sections{
+  text-decoration: none;
+  margin:5px;
+}
+
+@media(min-width:769px){
+  .sections{
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+}
+
+
+.home::before{
+  content: url("/media/Img/home.png");
+  margin: 0 5px 0 0;
+}
+
+.servicios::before{
+  content: url("/media/Img/user.png");
+  margin: 0 5px 0 0;
+}
+
+
+.contact::before{
+  content: url("/media/Img/Vector\ \(2\).png");
+  margin: 0 5px 0 0;
+}
+
+.footer-redes{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.redes{
+  margin: 10px;
+}
+
+.footer-texto{
+}
+
